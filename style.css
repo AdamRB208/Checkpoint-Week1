@@ -1,0 +1,42 @@
+header {
+  background-color: rgb(220 53 69);
+}
+
+nav {
+  display: inline-block;
+}
+
+.logo {
+  color: rgb(71, 71, 73);
+}
+
+.venom-bg {
+  background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/venom-spider-man-90s.jpg);
+  background-size: cover;
+  min-height: 80dvh;
+  background-position: center;
+}
+
+h1 {
+  color: rgb(187, 178, 178);
+  text-shadow: .5px .5px rgb(118, 116, 116);
+}
+
+p {
+  color: rgb(187, 178, 178);
+  text-shadow: .5px .5px rgb(118, 116, 116);
+}
+
+label {
+  display: block;
+}
+
+nav button {
+  background-color: rgb(220 53 69);
+  border: 0;
+  color: rgb(71, 71, 73);
+}
+
+.log-in {
+  background-color: #6ea8fe;
+}
