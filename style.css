@@ -6,20 +6,15 @@ nav {
   display: inline-block;
 }
 
-.logo {
-  color: rgb(71, 71, 73);
-}
-
-.venom-bg {
-  background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/venom-spider-man-90s.jpg);
-  background-size: cover;
-  min-height: 80dvh;
-  background-position: center;
-}
-
 h1 {
   color: rgb(187, 178, 178);
   text-shadow: .5px .5px rgb(118, 116, 116);
+  font-family: "Grechen Fuemen", serif;
+}
+
+h2 {
+  color: rgb(187, 178, 178);
+  font-family: "Grechen Fuemen", serif;
 }
 
 p {
@@ -37,6 +32,73 @@ nav button {
   color: rgb(71, 71, 73);
 }
 
+h4 {
+  color: rgb(227, 224, 224);
+  text-shadow: 1px 1px rgb(227, 224, 224);
+  font-family: "Grechen Fuemen", serif;
+}
+
+.logo {
+  color: rgb(71, 71, 73);
+}
+
+.venom-bg {
+  background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/12/venom-spider-man-90s.jpg);
+  background-size: cover;
+  min-height: 80dvh;
+  background-position: center;
+  opacity: .8;
+}
+
 .log-in {
   background-color: #6ea8fe;
+}
+
+.iron-spider {
+  width: 100%;
+}
+
+.card {
+  background-color: #6ea8fe;
+}
+
+.spiderman-bg {
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/020/429/341/4k/pencil-equipped-spidermanvsvenom-pencilequipped-med.jpg?1567720981);
+  background-size: cover;
+  min-height: 80dvh;
+  background-position: center;
+  opacity: .8;
+}
+
+.grechen-fuemen-regular {
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.magic-spilling-card {
+  position: absolute;
+  background-color: rgba(231, 228, 228, 0.225);
+}
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+}
+
+@media screen AND (max-width: 850px) {
+
+  .magic-spilling-card {
+    top: -60px
+  }
+
+}
+
+@media screen AND (max-width: 767.98px) {
+
+  .magic-spilling-card {
+    position: static;
+  }
 }

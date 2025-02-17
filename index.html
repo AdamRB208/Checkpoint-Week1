@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
   <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
     defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Checkpoint WK1 Website</title>
 </head>
@@ -38,22 +41,22 @@
   <main>
     <section class="container-fluid">
       <div class="row align-items-center venom-bg">
-        <div class="col-5 col-md-2">
-          <div class=" log-in d-flex flex-column">
-            <form action="log-in">Pick your side
+        <div class="col-5 col-md-2 d-flex flex-column">
+          <div class=" log-in">
+            <form class="m-2" action="log-in">Pick your side
               <label for="first">Username:</label>
               <input type="text" id="first" name="first" placeholder="enter your username" required>
               <label for="password">Password</label>
               <input type="text" id="password" name="password" placeholder="enter your password" required>
               <div class="wrap">
-                <button type="submit">Submit</button>
+                <button class="m-4" type="submit">Submit</button>
               </div>
             </form>
           </div>
         </div>
-        <div class="col-12 col-md-6">
-          <div class="d-flex flex-column">
-            <h1>Are you ready to take the journey???</h1>
+        <div class="col-12 col-md-6 d-flex flex-column">
+          <div>
+            <h1 class="fs-1">Are you ready to take the journey???</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit pariatur
               provident voluptate nihil in
               cum ducimus expedita nam explicabo! Dolore!</p>
@@ -62,28 +65,121 @@
       </div>
     </section>
     <section class="container-fluid">
-      <div class="row align-items-center bg-danger">
-        <div class="col-12 col-md-4">
-          <div class="d-flex flex-column mb-3 align-self-start">
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus doloribus labore enim illum
+      <div class="row align-items-center bg-danger p-5">
+        <div class="col-12 col-md-6 d-flex flex-column">
+          <div class="mb-3 me-5 align-self-start">
+            <h2 class="fs-1">Lorem ipsum dolor sit amet consectetur.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus doloribus
+              labore enim illum
               temporibus? Cumque, id exercitationem quibusdam odit possimus soluta culpa repudiandae voluptatum
               praesentium distinctio iure! Adipisci, nihil.</p>
-            <div class="col-12 col-md-6"></div>
-            <div class="d-flex flex-column mb-3 align-self-center">
-              <ul class="mdi mdi-spider-web">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</ul>
-              <ul class="mdi mdi-bug-outline">Lorem ipsum dolor sit.</ul>
-              <ul class="mdi mdi-spider-thread">Lorem ipsum dolor sit..</ul>
-              <ul class="mdi mdi-bacteria-outline">Lorem ipsum dolor sit amet consectetur.</ul>
-              <ul class="mdi mdi-emoticon-devil-outline">Lorem ipsum dolor sit amet consectetur adipisicing.</ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 d-flex flex-column">
+          <div class="ms-5 mt-3 align-self-center bg-primary-emphasis magic-spilling-card">
+            <ul class="mdi mdi-spider-web">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</ul>
+            <ul class="mdi mdi-bug-outline">Lorem ipsum dolor sit.</ul>
+            <ul class="mdi mdi-spider-thread">Lorem ipsum dolor sit..</ul>
+            <ul class="mdi mdi-bacteria-outline">Lorem ipsum dolor sit amet consectetur.</ul>
+            <ul class="mdi mdi-emoticon-devil-outline">Lorem ipsum dolor sit amet consectetur adipisicing.</ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row bg-primary">
+        <div class="col-12 col-md-6">
+          <div class=" iron-spider d-flex">
+            <img class="p-5 w-100" src="https://i.pinimg.com/736x/48/99/c9/4899c97390657f9d9bd89a1fed879cc6.jpg"
+              width="600" height="600" alt="iron spider vs venom image">
+          </div>
+        </div>
+        <div class="col-10 col-md-6">
+          <div class="d-flex align-items-center m-5 m-md-2">
+            <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, fuga aut facere cumque dolor magni
+              exercitationem veniam vero, soluta hic eligendi id molestias esse quod tempora totam placeat amet
+              mollitia.</h3>
+            <div class="d-block m-5">
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, enim?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="container-fluid">
+      <div class="row bg-danger justify-content-center">
+        <div class="col-4 col-md-3 card m-5">
+          <img class="card-image w-100 mt-2"
+            src="https://w0.peakpx.com/wallpaper/547/447/HD-wallpaper-little-spider-man-and-venom-spiderman-venom-artist-artwork-behance-superheroes.jpg"
+            width="350" height="300" alt="venom behind spiderman">
+          <span class="m-1 p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil itaque sed
+            sequi
+            corporis eaque
+            perferendis ipsa saepe adipisci earum dolore!</span>
+        </div>
+        <div class="col-5 col-md-4 card m-5">
+          <img class="card-image w-100 mt-2"
+            src="https://i.pinimg.com/474x/32/ac/8c/32ac8c3a45078c3fa707456d97924aea.jpg" width="300" height="300"
+            alt="image of black spiderman">
+          <span class="m-1 p-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ratione
+            eaque sequi
+            nisi repellat
+            temporibus blanditiis porro aut dolor rem!</span>
+        </div>
+        <div class="col-4 col-md-3 card m-4">
+          <img class="card-image w-100 mt-2"
+            src="https://i.pinimg.com/736x/3b/d8/a3/3bd8a338386760c0602412fc739ec203.jpg" width="350" height="300"
+            alt="image of spiderman venom and carnage">
+          <span class="m-1 p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, error
+            corporis
+            doloremque repellendus
+            saepe quis necessitatibus non nemo excepturi culpa.</span>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row align-items-center spiderman-bg">
+        <div class="col-6 col-md-6 m-2 align-items-center">
+          <h4 class="fs-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae vel, officia quia
+            expedita saepe?</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere delectus pariatur eum quis veniam,
+            impedit, saepe id ducimus nulla ab voluptatibus hic aliquam expedita?</p>
+        </div>
+      </div>
+    </section>
   </main>
+
   <footer>
-    footer content
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 col-md-4 d-flex justify-content-between">
+          <span>
+            <p>Visit Us</p>
+            <p>410 Chelsea St,</p>
+            <p>Staten Island, NY 10307</p>
+          </span>
+        </div>
+        <div class="col-4 col-md-4 d-flex justify-content-between">
+          <span>
+            <p>Contact Us</p>
+            <p>(281) 330-8004</p>
+            <p>Mon-Fri / 9:00AM to 5:00PM</p>
+          </span>
+        </div>
+        <div class="col-4 col-md-4 d-flex justify-content-between d-block">
+          <span>
+            <p>Socials</p>
+            <p class="mdi mdi-facebook"></p>
+            <p class="mdi mdi-twitter"></p>
+            <p class="mdi mdi-linkedin"></p>
+          </span>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 
